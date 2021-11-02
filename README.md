@@ -9,7 +9,8 @@ version when there is just 1GB of space available.
 ---
 ### Features:
 - create an account and login
-- pre-created user "Admin" with access to complete reset
+- pre-created user "Admin" with access to complete reset, the password is 1ks1#+5a8 and is just for  
+  testing purposes
 - store only the passwords hash
 - not even the Admin can read messages, due to them stored anonimously,  
   at the time just possible with trial and error when trying all PrivateKeys
