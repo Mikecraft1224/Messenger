@@ -1,10 +1,9 @@
 import os
-from rsa.key import PrivateKey, PublicKey
-from login import login
-from rsa_crypto import encrypt, decrypt
 import hashlib
 import pickle
 import time
+from Messenger.login import login
+from Messenger.rsa_crypto import encrypt, decrypt
 
 ZONE = 1
 

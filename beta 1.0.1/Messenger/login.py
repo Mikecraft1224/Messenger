@@ -1,7 +1,6 @@
 import hashlib
-
-from rsa_crypto import keys
 import pickle
+from Messenger.rsa_crypto import keys
 
 invalidNames = ["All"]
 
