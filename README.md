@@ -5,6 +5,7 @@ It started as a project to learn more about Python 3.
 If you want to run a version of this messenger, please copy the venv folder in the folder  
 of the version you want, because I don't want to fill this repo with 20MBs of venv for every  
 version when there is just 1GB of space available.  
+Then just open "start.bat"  
 
 ---
 ### Features:
