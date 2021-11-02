@@ -18,6 +18,10 @@ def login(acc=None):
         pickle.load(open("Accounts\Keys\private.p", "rb"))
     except:
         pickle.dump({}, open("Accounts\Keys\private.p", "wb"))
+    try:
+        pickle.load(open("Messages\placeholder.p", "rb"))
+    except:
+        pickle.dump([], open("Messages\placeholder.p", "wb"))
 
     if not(acc):
         welcome = input("Do you have an acount? y/n: ")

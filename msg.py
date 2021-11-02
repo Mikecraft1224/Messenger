@@ -25,6 +25,7 @@ def reset():
             os.remove("Accounts/Accs.p")
             os.remove("Accounts/Keys/private.p")
             os.remove("Accounts/Keys/public.p")
+            os.remove("Messages/placeholder.p")
         except:
             pass
         
